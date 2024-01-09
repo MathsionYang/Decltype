@@ -24,9 +24,13 @@
     <ClInclude Include="LRUCache\LRUCache.h" />
     <ClInclude Include="Node\ListNode.h" />
     <ClInclude Include="Stack\Stack.h" />
+    <ClInclude Include="Thread\ThreadPool.h" />
+    <ClInclude Include="Thread\ThreadFun.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Thread\ThreadPool.cpp" />
+    <ClCompile Include="Thread\ThreadFun.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SmartPtr\Smart.md" />

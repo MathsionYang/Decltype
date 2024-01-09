@@ -30,9 +30,21 @@
     <ClInclude Include="Stack\Stack.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Thread\ThreadFun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\ThreadPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\ThreadFun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\ThreadPool.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
